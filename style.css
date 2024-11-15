@@ -210,20 +210,18 @@
   border-radius: 20px;
   margin-top: 20px;
   /* display: flex;÷ */
+  padding-top: 30px;
 
 }
 .special-offer h1{
   width: 413px;
   height: 48px;
   color: white;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   border-radius: 15px;
   text-align: center;
   /* display: flex; */
   margin: auto; 
-}
-.special-offer{
-  padding-top: 100px;
 }
 .special-top{
   display: flex ;
@@ -264,11 +262,15 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  margin-top: -100px;
+  margin-top: -18 0px;
 }
 .card img{
   width: 349px;
   height: 509px;
   background-color: black;
   border-radius: 20px;
+}
+.cards img:hover{
+  transform: scale(1.1);
+  transition: all 0.5s;
 }
