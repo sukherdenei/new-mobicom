@@ -209,22 +209,27 @@
   margin: auto;
   border-radius: 20px;
   margin-top: 20px;
-  /* display: flex; */
+  /* display: flex;÷ */
 
 }
 .special-offer h1{
   width: 413px;
   height: 48px;
   color: white;
-  border: 1px solid black;
+  border: 1px solid red;
   border-radius: 15px;
   text-align: center;
-  margin: auto;;
+  /* display: flex; */
+  margin: auto; 
+}
+.special-offer{
+  padding-top: 100px;
 }
 .special-top{
   display: flex ;
   height: 250px;
   border-radius: 20px;
+  padding-bottom: 50px;
 }
 .nav-bar{
   display: flex;
@@ -237,6 +242,7 @@
   color: #f7f7f7;
   align-items: center;
   cursor: pointer;
+  margin-bottom: 100px;
 }
 .nav-bar span{
   background-color: white;
@@ -250,12 +256,6 @@
   display: flex;
   cursor: pointer;
 }
-
-/* .nav-bar-div{
-  width: 86px ;
-  height: 20px;
-  background-color: #3d3d3d;
-} */
 .cards{
   width: 2240px;
   height: 637px;
